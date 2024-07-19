@@ -14,11 +14,13 @@
       "jsx": true
     }
   },
-  "plugins": ["@typescript-eslint", "react"],
+  "plugins": ["@typescript-eslint", "react", "next"],
   "rules": {
     "@typescript-eslint/ban-ts-comment": "warn",
     "react/no-unescaped-entities": "off",
-    "@next/next/no-page-custom-font": "off"
+    "@next/next/no-page-custom-font": "off",
+    "react/react-in-jsx-scope": "off"
+    
   },
   "settings": {
     "react": {
