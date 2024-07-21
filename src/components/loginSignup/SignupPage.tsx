@@ -40,7 +40,7 @@ const SignupCard: React.FC<SignupCardProps> = ({ onLoginClick }) => {
   };
 
   return (
-    <div className="flex items-center gap-10 justify-center bg-black">
+    <div className="flex items-center gap-10 justify-center ">
       <div className="hidden md:block">
         {/* Use next/image for Signuppage */}
         <Image src="/images/home-testimonial.jpg" alt="Signup Page Image" width={600} height={600} className="" />

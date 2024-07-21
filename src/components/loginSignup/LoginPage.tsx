@@ -40,7 +40,7 @@ const Logincard: React.FC<LoginCardProps> = ({ onRegisterClick }) => {
   };
 
   return (
-    <div className="flex bg-black flex-wrap gap-10 items-center justify-center">
+    <div className="flex flex-wrap gap-10 items-center justify-center">
       <div className="max-w-lg my-10 p-6 backdrop-blur-lg rounded-3xl
           bg-gradient-to-br from-[#33333389] via-[#204a6897] to-transparent
           shadow-lg">
