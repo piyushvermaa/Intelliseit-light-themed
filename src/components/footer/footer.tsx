@@ -4,13 +4,14 @@ import Grid from '@mui/material/Grid'
 import Container from '@mui/material/Container'
 import Typography from '@mui/material/Typography'
 import { FooterNavigation, FooterSocialLinks } from '@/components/footer'
+import { ArrowUpRight } from 'react-feather'
 
 const Footer: FC = () => {
   return (
-    <div className='bg-[#127C71] text-white rounded-t-3xl '>
-      
+    <div className='bg-[rgb(18,124,113)] text-white rounded-t-3xl  flex flex-col items-center justify-center'>
+       <div className='text-center mt-10 flex justify-center items-center shadow-md hover:scale-95 hover:bg-gray-900 transition-all bg-black py-2 px-4 rounded-lg'>Launch with Trail <ArrowUpRight height={15}/></div>
       <div className=" max-w-[1200px] flex flex-col items-center justify-center mx-auto">
-      <div className="sm:px-20 px-5 pt-16 mx-auto sm:max-w-2xl md:max-w-full lg:max-w-full md:px-24 lg:px-8 ">
+      <div className="sm:px-20 px-5 pt-8 mx-auto sm:max-w-2xl md:max-w-full lg:max-w-full md:px-24 lg:px-8 ">
         <div className="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
           <div className="sm:col-span-2">
             <a

@@ -3,7 +3,7 @@ import Image from "next/image";
 const Contact = () => {
     return (
       <div className="body-font relative h-fit py-20 flex flex-col justify-center items-center text-black">
-        <div className="mx-auto px-5 max-w-[1200px] flex flex-col lg:flex-row">
+        <div className="mx-auto px-5 max-w-[1200px] flex flex-col-reverse lg:flex-row">
         <div className="lg:w-1/2  flex justify-center items-center mt-12 lg:mt-0">
             <Image src="/images/home-contact.png" alt="Contact Us" height={500} width={500} className="" />
           </div>
