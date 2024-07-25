@@ -11,7 +11,7 @@ const DynamicHomeTestimonial = dynamic(() => import('../components/home/testimon
 const DynamicHomeOurMentors = dynamic(() => import('../components/home/mentors'))
 const DynamicServices = dynamic(() => import('../components/home/services'))
 const DynamicContact = dynamic(() => import('../components/home/Contact'))
-const DynamicCourseDescription = dynamic(()=> import('../components/course/course-desc'))
+const DynamicCourseDescription = dynamic(() => import('../components/course/course-desc'))
 
 const Home: NextPageWithLayout = () => {
   return (
@@ -22,8 +22,8 @@ const Home: NextPageWithLayout = () => {
       <DynamicHomeTestimonial />
       <DynamicHomeOurMentors />
       <DynamicServices />
-      <DynamicContact/>
-      <DynamicCourseDescription/>
+      <DynamicContact />
+      {/* <DynamicCourseDescription/> */}
     </>
   )
 }
