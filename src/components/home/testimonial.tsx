@@ -78,7 +78,7 @@ const HomeTestimonial: FC = () => {
                 fontWeight: 'bold',
               }}
             >
-              Testimonial What our{' '}
+              Reviews! What our{' '}
               <Typography
                 component="mark"
                 sx={{
