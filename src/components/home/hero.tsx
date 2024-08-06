@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { FC } from 'react';
 import Image from 'next/image'
@@ -12,8 +11,9 @@ import PlayArrowIcon from '@mui/icons-material/PlayArrow'
 import IconCloud from '../magicui/Iconsglobe'
 import TypingAnimation from '../magicui/Typewritter'
 import NumberTicker from '../magicui/Numberticker';
+import { WhatsApp } from '@mui/icons-material';
 
- 
+
 const slugs = [
   "typescript",
   "javascript",
@@ -46,7 +46,7 @@ const slugs = [
   "sonarqube",
   "figma",
 ];
- 
+
 
 
 
@@ -61,7 +61,7 @@ interface ExpItemProps {
 const exps: Array<Exp> = [
   {
     label: 'Students',
-    val: '1250',
+    val: '125000',
   },
   {
     label: 'Quality Course',
@@ -69,7 +69,7 @@ const exps: Array<Exp> = [
   },
   {
     label: 'Experience Mentors',
-    val: '10',
+    val: '15',
   },
 ]
 
@@ -190,8 +190,8 @@ const HomeHero: FC = () => {
                   </StyledButton>
                 </ScrollLink>
                 <ScrollLink to="video-section" spy={true} smooth={true} offset={0} duration={350}>
-                  <StyledButton color="primary" size="large" variant="outlined" startIcon={<PlayArrowIcon />}>
-                    Watch Video
+                  <StyledButton color="primary" size="large" variant="outlined" startIcon={<WhatsApp/>}>
+                    Chat On Whatsapp 
                   </StyledButton>
                 </ScrollLink>
               </Box>
